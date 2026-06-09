@@ -37,7 +37,7 @@
   // 读取项目根目录的 README.md 文件内容
   let md-content = read("../README.md")
   // 移除一级标题（README 中的 "# 跨越晨昏"），因为页面上方已经显示了标题
-  let md-content = md-content.trim(regex("\s*#.+?\n")) // Remove first-level heading
+  let md-content = md-content.trim(regex("\s*#.+?\n")) // 移除一级标题
 
   // 使用 cmarker 将 Markdown 渲染为 Typst 内容
   // scope 参数允许自定义 Markdown 中图片的渲染方式

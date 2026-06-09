@@ -1,13 +1,13 @@
-# The Tufted Titmouse
+# 凤头山雀
 
-The Tufted Titmouse (*Baeolophus bicolor*) is a small, charismatic songbird native to the deciduous forests of eastern North America. Recognizable by their distinctive grey crest, large black eyes, and rust-colored flanks, these birds are acrobatic foragers and frequent visitors to backyard feeders. During winter, they often join mixed flocks with chickadees and nuthatches. Their song is a clear, whistled *peter-peter-peter*.
+凤头山雀（*Baeolophus bicolor*）是一种小型、迷人的鸣禽，原产于北美东部的落叶林中。它们以独特的灰色羽冠、黑色的大眼睛和铁锈色的胁部而易于辨认，是灵巧的觅食者，经常光顾后院的喂食器。冬季，它们常与山雀和䴓混群活动。它们的鸣声是清脆嘹亮的 *peter-peter-peter*。
 
-![Tufted Titmouse](tufted-titmouse.webp)
+![凤头山雀](tufted-titmouse.webp)
 
-We can model their population dynamics using the logistic growth equation:
+我们可以用逻辑斯谛增长方程来模拟它们的种群动态：
 
 $$
 \frac{dP}{dt} = rP \left(1 - \frac{P}{K}\right)
 $$
 
-where $P$ represents the population, $r$ is the intrinsic growth rate, and $K$ is the carrying capacity of their habitat.
+其中 $P$ 代表种群数量，$r$ 是内禀增长率，$K$ 是栖息地的环境容纳量。

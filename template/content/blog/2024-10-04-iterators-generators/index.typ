@@ -69,7 +69,7 @@ def counter(max):
 
 
 // 插图：图标题自动渲染为侧注（marginnote 格式）
-#figure(image("imgs/python.webp"), caption: [Four people holding a long python])
+#figure(image("imgs/python.webp"), caption: [四人手持一条长蟒蛇])
 
 // --- 第四节：何时使用哪种工具 ---
 == 何时使用哪种工具

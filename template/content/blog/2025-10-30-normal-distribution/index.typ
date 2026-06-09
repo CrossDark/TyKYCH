@@ -56,7 +56,7 @@ $ f(x) = 1/(sigma sqrt(2pi)) e^(-(x-mu)^2/(2sigma^2)) $
   ))
 
   // 图表带侧注标题（标题自动移到右侧边距中）
-  figure(caption: [Normal distribution], diagram)
+  figure(caption: [正态分布], diagram)
 }
 
 // --- 第二节：为什么重要 ---
