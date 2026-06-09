@@ -1,12 +1,12 @@
 # The `kych` Package / `kych` 包
 <div align="center">Version 0.1.0</div>
 
-A short description about the project and/or client.
-关于项目和/或客户端的简短描述。
+静态网站生成器
+
+> **基于** [tufted](https://github.com/vsheg/tufted) (Copyright © 2025 Vsevolod Shegolev, MIT License) 修改而来。
 
 ## Template adaptation checklist / 模板适配检查清单
 
-- [ ] TOTO: Check and/or replace `LICENSE` by something that suits your needs / 检查并/或用适合你需求的内容替换 `LICENSE`
 - [ ] remove/replace the example test case / 移除/替换示例测试用例
 - [ ] (add your actual code, docs and tests) / （添加你实际的代码、文档和测试）
 - [ ] remove this section from the README / 从 README 中移除此部分
