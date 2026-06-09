@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 <details>
-<summary>Migration guide from v0.1.X</summary>
+<summary>Migration guide from v0.1.0</summary>
 
 <!-- Write migration guide here -->
 
@@ -42,5 +42,5 @@ to the corresponding tag on GitHub, or the diff
 in comparison to the previous release
 -->
 
-[Unreleased]: https://github.com/<author>/<my-package>/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/<author>/<my-package>/releases/tag/v0.1.0
+[Unreleased]: https://github.com/CrossDark/TyKYCH/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/CrossDark/TyKYCH/releases/tag/v0.1.0

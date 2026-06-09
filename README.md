@@ -1,36 +1,23 @@
-# The `my-package` Package
+# The `kych` Package / `kych` 包
 <div align="center">Version 0.1.0</div>
 
 A short description about the project and/or client.
+关于项目和/或客户端的简短描述。
 
-## Template adaptation checklist
+## Template adaptation checklist / 模板适配检查清单
 
-- [ ] Fill out `README.md`
-  - Change the `my-package` package name, including code snippets
-  - Check section contents and/or delete sections that don't apply
-- [ ] Check and/or replace `LICENSE` by something that suits your needs
-- [ ] Fill out `typst.toml`
-  - See also the [typst/packages README](https://github.com/typst/packages/?tab=readme-ov-file#package-format)
-- [ ] Adapt Repository URLs in `CHANGELOG.md`
-  - Consider only committing that file with your first release, or removing the "Initial Release" part in the beginning
-- [ ] Adapt or deactivate the release workflow in `.github/workflows/release.yml`
-  - to deactivate it, delete that file or remove/comment out lines 2-4 (`on:` and following)
-  - to use the workflow
-    - [ ] check the values under `env:`, particularly `REGISTRY_FORK`
-    - [ ] if you don't have one, [create a fine-grained personal access token](https://github.com/settings/tokens?type=beta) with [only Contents permission](https://stackoverflow.com/a/75116350/371191) for the `REGISTRY_FORK`
-    - [ ] on this repo, create a secret `REGISTRY_TOKEN` (at `https://github.com/[user]/[repo]/settings/secrets/actions`) that contains the so created token
+- [ ] TOTO: Check and/or replace `LICENSE` by something that suits your needs / 检查并/或用适合你需求的内容替换 `LICENSE`
+- [ ] remove/replace the example test case / 移除/替换示例测试用例
+- [ ] (add your actual code, docs and tests) / （添加你实际的代码、文档和测试）
+- [ ] remove this section from the README / 从 README 中移除此部分
 
-    if configured correctly, whenever you create a tag `v...`, your package will be pushed onto a branch on the `REGISTRY_FORK`, from which you can then create a pull request against [typst/packages](https://github.com/typst/packages/)
-- [ ] remove/replace the example test case
-- [ ] (add your actual code, docs and tests)
-- [ ] remove this section from the README
-
-## Getting Started
+## Getting Started / 快速开始
 
 These instructions will get you a copy of the project up and running on the typst web app. Perhaps a short code example on importing the package and a very simple teaser usage.
+以下说明将帮助你在 typst web app 中启动并运行该项目的副本。可以提供一个简短的代码示例来展示如何导入包以及一个非常简单的预览用法。
 
 ```typ
-#import "@preview/my-package:0.1.0": *
+#import "@preview/kych:0.1.0": *
 
 #show: my-show-rule.with()
 #my-func()
@@ -41,29 +28,31 @@ These instructions will get you a copy of the project up and running on the typs
   <img src="./thumbnail-light.svg">
 </picture>
 
-### Installation
+### Installation / 安装
 
 A step by step guide that will tell you how to get the development environment up and running. This should explain how to clone the repo and where to (maybe a link to the typst documentation on it), along with any pre-requisite software and installation steps.
+一份逐步指南，告诉你如何搭建并运行开发环境。这应该说明如何克隆仓库以及克隆到哪里（可以附上 typst 文档的链接），以及任何必备软件和安装步骤。
 
 ```
-$ First step
-$ Another step
-$ Final step
+$ First step / 第一步
+$ Another step / 另一步
+$ Final step / 最后一步
 ```
 
-## Usage
+## Usage / 使用方法
 
 A more in-depth description of usage. Any template arguments? A complicated example that showcases most if not all of the functions the package provides? This is also an excellent place to signpost the manual.
+更深入的使用说明。有哪些模板参数？可以提供一个复杂的示例来展示包所提供的绝大部分（甚至全部）功能。这里也是提供手册链接的绝佳位置。
 
 ```typ
-#import "@preview/my-package:0.1.0": *
+#import "@preview/kych:0.1.0": *
 
 #let my-complicated-example = ...
 ```
 
-## Additional Documentation and Acknowledgments
+## Additional Documentation and Acknowledgments / 附加文档与致谢
 
-* Project folder on server:
-* Confluence link:
-* Asana board:
-* etc...
+* Project folder on server: / 服务器上的项目文件夹：
+* Confluence link: / Confluence 链接：
+* Asana board: / Asana 看板：
+* etc... / 等等……
