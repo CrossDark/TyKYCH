@@ -28,7 +28,7 @@ These instructions will get you a copy of the project up and running on the typs
   <img src="./thumbnail-light.svg">
 </picture>
 
-### Installation / 安装
+## Usage / 使用方法
 
 Initialize the template from the Typst package registry: / 初始化
 
@@ -41,23 +41,3 @@ To build the website, run: 编译
 ```shell
 make html
 ```
-
-Explore the `content/` folder for examples. 
-
-## Usage / 使用方法
-
-A more in-depth description of usage. Any template arguments? A complicated example that showcases most if not all of the functions the package provides? This is also an excellent place to signpost the manual.
-更深入的使用说明。有哪些模板参数？可以提供一个复杂的示例来展示包所提供的绝大部分（甚至全部）功能。这里也是提供手册链接的绝佳位置。
-
-```typ
-#import "@preview/kych:0.1.0": *
-
-#let my-complicated-example = ...
-```
-
-## Additional Documentation and Acknowledgments / 附加文档与致谢
-
-* Project folder on server: / 服务器上的项目文件夹：
-* Confluence link: / Confluence 链接：
-* Asana board: / Asana 看板：
-* etc... / 等等……
