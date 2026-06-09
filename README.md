@@ -30,14 +30,19 @@ These instructions will get you a copy of the project up and running on the typs
 
 ### Installation / 安装
 
-A step by step guide that will tell you how to get the development environment up and running. This should explain how to clone the repo and where to (maybe a link to the typst documentation on it), along with any pre-requisite software and installation steps.
-一份逐步指南，告诉你如何搭建并运行开发环境。这应该说明如何克隆仓库以及克隆到哪里（可以附上 typst 文档的链接），以及任何必备软件和安装步骤。
+Initialize the template from the Typst package registry: / 初始化
 
+```shell
+typst init @preview/kych:0.1.1
 ```
-$ First step / 第一步
-$ Another step / 另一步
-$ Final step / 最后一步
+
+To build the website, run: 编译
+
+```shell
+make html
 ```
+
+Explore the `content/` folder for examples. 
 
 ## Usage / 使用方法
 
