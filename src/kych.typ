@@ -28,7 +28,7 @@
 //   links - 导航链接数组，每个元素为 (href, title) 元组，如 ("/", "首页")
 //           若为 none 则不渲染导航栏
 // 返回：html.header 元素（HTML）或 none（PDF）
-#let make-header(links) = {
+#let make-header(links) = context {
   if target() == "html" {
     html.header(
       if links != none {
@@ -71,7 +71,7 @@
     "/assets/custom.css",
   ),
   content,
-) = {
+) = context {
   // --- 应用 Show 规则（HTML/PDF 通用）---
   // 各子模块内部已通过 target() 判断做不同处理（在 show 规则处理器中，上下文已知）：
   //   template-math:    HTML → <span/figure role="math">, PDF → 默认行为
@@ -87,8 +87,7 @@
   set text(lang: lang)
 
   // 使用 context 包裹，让 target() 在运行时可用
-  context {
-    if target() == "html" {
+  if target() == "html" {
       // ======== HTML 输出：构建完整网页结构 ========
       html.html(
         lang: lang,
@@ -122,5 +121,4 @@
       // 导航栏在 PDF 中无意义，直接跳过，不调用 make-header
       content
     }
-  }
 }
