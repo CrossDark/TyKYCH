@@ -1,33 +1,33 @@
 # 跨越晨昏
 
-A static website template built using Typst's experimental HTML export. Requires no external dependencies other than basic `make`.
+一个使用 Typst 实验性 HTML 导出功能构建的静态网站模板。除基本的 `make` 外无需其他外部依赖。
 
 > **基于** [tufted](https://github.com/vsheg/tufted) (Copyright © 2025 Vsevolod Shegolev, MIT License) 修改而来。
 
 ![跨越晨昏 website](assets/devices.webp)
 
-## Installation & Usage
+## 安装与使用
 
-Initialize the template from the Typst package registry:
+从 Typst 包仓库初始化模板：
 
 ```shell
 typst init @preview/kych:0.1.1
 ```
 
-To build the website, run: 
+要构建网站，请运行：
 
 ```shell
 make html
 ```
 
-Explore the `content/` folder for examples.
+探索 `content/` 文件夹查看示例。
 
-## Links
+## 链接
 
-- [Original template (tufted)](https://github.com/vsheg/tufted) — upstream project
-- [Repository on GitHub](https://github.com/CrossDark/KYCH) — source code, issues, and contributions
-- [Tufte CSS](https://edwardtufte.github.io/tufte-css/) — used for styling, loaded automatically from a CDN
+- [原始模板 (tufted)](https://github.com/vsheg/tufted) — 上游项目
+- [GitHub 仓库](https://github.com/CrossDark/KYCH) — 源代码、问题和贡献
+- [Tufte CSS](https://edwardtufte.github.io/tufte-css/) — 用于样式，自动从 CDN 加载
 
-## License
+## 许可证
 
-The source code is available on [GitHub](https://github.com/CrossDark/KYCH) under the [MIT License](https://github.com/CrossDark/KYCH/blob/main/LICENSE). The template in the `template/` directory uses the more permissive [MIT-0](https://opensource.org/licenses/MIT-0) license.
+源代码在 [GitHub](https://github.com/CrossDark/KYCH) 上以 [MIT 许可证](https://github.com/CrossDark/KYCH/blob/main/LICENSE) 提供。`template/` 目录中的模板使用更宽松的 [MIT-0](https://opensource.org/licenses/MIT-0) 许可证。
