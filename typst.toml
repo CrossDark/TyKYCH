@@ -24,10 +24,10 @@ exclude = [
   "thumbnail-light.svg",
 ]
 
-# [template]
-# path = "template"
-# entrypoint = "main.typ"
-# thumbnail = "thumbnail.png"
+[template]
+path = "template"
+entrypoint = "config.typ"
+thumbnail = "access/thumbnail.png"
 
 # [tool.mytool]
 # foo = "bar"
